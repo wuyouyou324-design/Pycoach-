@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 1. Bookmark Ribbon hanging from bottom -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 45,80 V 89 L 50,84 L 55,89 V 80 Z" />
+
+    <!-- 2. Main Book Cover (Rounded Rectangle) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M 37,26 H 71 A 5,5 0 0 1 76,31 V 75 A 5,5 0 0 1 71,80 H 37 A 5,5 0 0 1 32,75 V 31 A 5,5 0 0 1 37,26 Z" />
+
+    <!-- 3. Book Spine vertical crease line -->
+    <path
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 39,26 V 80" />
+
+    <!-- 4. Decorative Spine Horizontal Ridges (leather book style) -->
+    <path
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 32,38 H 39" />
+        
+    <path
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 32,53 H 39" />
+
+    <path
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 32,68 H 39" />
+
+    <!-- 5. Code Caret '>' in center of book cover -->
+    <path
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M 48,46 L 56,53 L 48,60" />
+
+    <!-- 6. Code Underscore Cursor '_' -->
+    <path
+        android:strokeColor="#121212"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="M 61,60 H 69" />
+
+</vector>

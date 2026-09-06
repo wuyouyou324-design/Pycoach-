@@ -1,0 +1,6 @@
+{
+  "name": "Pycoach",
+  "description": "全方位 Python 程式學習與 AI 一對一教練助手。包含互動式課程、代碼模擬器、主題測驗、Gemini 驅動的 AI 金牌教練以及學習統計儀表板。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
